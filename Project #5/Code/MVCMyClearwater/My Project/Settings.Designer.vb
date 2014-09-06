@@ -63,9 +63,9 @@ Namespace My
     Friend Module MySettingsProperty
         
         <Global.System.ComponentModel.Design.HelpKeywordAttribute("My.Settings")>  _
-        Friend ReadOnly Property Settings() As Global.MyClearwaterMVC.My.MySettings
+        Friend ReadOnly Property Settings() As Global.MVCMyClearwater.My.MySettings
             Get
-                Return Global.MyClearwaterMVC.My.MySettings.Default
+                Return Global.MVCMyClearwater.My.MySettings.Default
             End Get
         End Property
     End Module

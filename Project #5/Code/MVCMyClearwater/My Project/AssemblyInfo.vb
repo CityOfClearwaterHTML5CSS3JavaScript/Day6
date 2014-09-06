@@ -7,17 +7,17 @@ Imports System.Runtime.InteropServices
 ' associated with an assembly.
 
 ' Review the values of the assembly attributes
-<Assembly: AssemblyTitle("MyClearwaterMVC")> 
+<Assembly: AssemblyTitle("MVCMyClearwater")> 
 <Assembly: AssemblyDescription("")> 
 <Assembly: AssemblyCompany("")> 
-<Assembly: AssemblyProduct("MyClearwaterMVC")> 
+<Assembly: AssemblyProduct("MVCMyClearwater")> 
 <Assembly: AssemblyCopyright("Copyright ©  2014")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("f72f6ae2-0da0-4f3f-b718-ade242d0df6b")> 
+<Assembly: Guid("8277565a-1022-428e-836a-4e07ad52616b")> 
 
 ' Version information for an assembly consists of the following four values:
 '

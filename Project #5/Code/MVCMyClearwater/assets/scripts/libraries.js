@@ -1,6 +1,5 @@
 Modernizr.load([
     {
-        // Step #1: Add JQuery and Boostrap Code
         load: "//code.jquery.com/jquery-1.11.1.min.js",
         complete: function () {
             if (!window.jQuery) {
@@ -11,10 +10,10 @@ Modernizr.load([
         }
     },
     {
-        // Step #4: Add jquery.vegas code
         load: {
             "bootstrap" : "//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js", 
             "jquery.vegas": assetsPath + "/scripts/jquery.vegas.min.js",
+            "blah": "assets/scripts/blah.js",
         },
         callback : {  
             "bootstrap": function (url, result, key) {

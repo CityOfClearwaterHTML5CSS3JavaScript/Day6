@@ -8,11 +8,11 @@
     </ProductVersion>
     <SchemaVersion>
     </SchemaVersion>
-    <ProjectGuid>{BAC45D74-54A4-4468-B153-65A387B66CEA}</ProjectGuid>
+    <ProjectGuid>{71FDD99A-DE7B-47DC-8A82-6384D8272A0F}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>MyClearwaterMVC</RootNamespace>
-    <AssemblyName>MyClearwaterMVC</AssemblyName>
+    <RootNamespace>MVCMyClearwater</RootNamespace>
+    <AssemblyName>MVCMyClearwater</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MyType>Custom</MyType>
     <UseIISExpress>true</UseIISExpress>
@@ -28,7 +28,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\</OutputPath>
-    <DocumentationFile>MyClearwaterMVC.xml</DocumentationFile>
+    <DocumentationFile>MVCMyClearwater.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -37,7 +37,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\</OutputPath>
-    <DocumentationFile>MyClearwaterMVC.xml</DocumentationFile>
+    <DocumentationFile>MVCMyClearwater.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <ItemGroup>
@@ -118,8 +118,6 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\scripts\modernizr-2.8.3.js" />
-    <Content Include="Global.asax" />
     <Content Include="assets\css\bootstrap.css" />
     <Content Include="assets\css\bootstrap.min.css">
       <DependentUpon>bootstrap.css</DependentUpon>
@@ -151,7 +149,9 @@
     <Content Include="assets\scripts\jquery-2.1.1.min.js" />
     <Content Include="assets\scripts\jquery.vegas.min.js" />
     <Content Include="assets\scripts\libraries.js" />
+    <Content Include="assets\scripts\modernizr-2.8.3.js" />
     <Content Include="assets\scripts\modernizr-2.8.3.min.js" />
+    <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -190,20 +190,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="My Project\Application.myapp">
-      <Generator>MyApplicationCodeGenerator</Generator>
-      <LastGenOutput>Application.Designer.vb</LastGenOutput>
-    </None>
-    <None Include="My Project\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <CustomToolNamespace>My</CustomToolNamespace>
-      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
-    </None>
-    <Content Include="Views\web.config" />
-    <Content Include="packages.config" />
-    <Content Include="Views\Shared\_MyClearwaterLayout.vbhtml" />
-    <Content Include="Views\_ViewStart.vbhtml" />
-    <Content Include="Views\Home\Index.vbhtml" />
     <Content Include="assets\css\bootstrap.css.map">
       <DependentUpon>bootstrap.css</DependentUpon>
     </Content>
@@ -286,6 +272,20 @@
     <Content Include="assets\less\utilities.less" />
     <Content Include="assets\less\variables.less" />
     <Content Include="assets\less\wells.less" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Views\web.config" />
+    <Content Include="packages.config" />
+    <Content Include="Views\Home\Index.vbhtml" />
+    <Content Include="Views\Shared\_MyClearwaterLayout.vbhtml" />
+    <Content Include="Views\_ViewStart.vbhtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -322,9 +322,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>2363</DevelopmentServerPort>
+          <DevelopmentServerPort>2788</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:2363/</IISUrl>
+          <IISUrl>http://localhost:2354/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
