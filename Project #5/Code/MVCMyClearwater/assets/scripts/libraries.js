@@ -13,7 +13,6 @@ Modernizr.load([
         load: {
             "bootstrap" : "//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js", 
             "jquery.vegas": assetsPath + "/scripts/jquery.vegas.min.js",
-            "blah": "assets/scripts/blah.js",
         },
         callback : {  
             "bootstrap": function (url, result, key) {

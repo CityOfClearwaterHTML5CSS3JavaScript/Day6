@@ -2,6 +2,10 @@
     ViewData("Title") = "Index"
 End Code
 
+@section styles
+    <link rel="stylesheet" href="~/assets/css/index.css">
+End Section
+
 <div id="bsCarousel" class="carousel slide">
     <!-- Indicators -->
     <ol class="carousel-indicators">

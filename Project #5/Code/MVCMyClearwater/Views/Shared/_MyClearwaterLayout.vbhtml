@@ -18,8 +18,10 @@
     <link rel="apple-touch-icon-precomposed" href="~/assets/icons/apple-touch-icon-precomposed.png">
     <link rel="shortcut icon" href="~/assets/icons/favicon.png">
 
-    @Scripts.Render("~/bundles/modernizr")
-    @Styles.Render("~/bundles/stylesheets.css")
+    <script src="~/assets/scripts/modernizr-2.8.3.min.js"></script>
+    <link rel="stylesheet" href="~/assets/css/stylesheets.css">
+    @*@Scripts.Render("~/bundles/modernizr")
+    @Styles.Render("~/bundles/stylesheets.css")*@
     @RenderSection("styles", False)
 
 </head>
@@ -186,7 +188,11 @@
         var assetsPath = "@Url.Content("~/assets")";
         console.log(assetsPath);
     </script>
-    @Scripts.Render("~/bundles/libraries.js")
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/scripts/jquery-1.11.1.min.js"><\/script>')</script>
+
+    <script src="~/assets/scripts/libraries.js"></script>
+    @*@Scripts.Render("~/bundles/libraries.js")*@
     @RenderSection("scripts", False)
 </body>
 </html>

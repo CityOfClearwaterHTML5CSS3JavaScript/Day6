@@ -126,6 +126,7 @@
     <Content Include="assets\css\font-awesome.css" />
     <Content Include="assets\css\font-awesome.min.css" />
     <Content Include="assets\css\fonts.css" />
+    <Content Include="assets\css\index.css" />
     <Content Include="assets\css\jquery.vegas.min.css" />
     <Content Include="assets\css\normalize.css" />
     <Content Include="assets\css\site.css" />
